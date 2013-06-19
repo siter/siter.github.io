@@ -4,7 +4,7 @@ body {
 	font-family: 'Merriweather', serif;
 }
 
-.topmarketing {
+.marketing {
     background: #fff url('/images/paper_fibers.png') repeat scroll top left;
 
 /* Custom container */
@@ -32,6 +32,18 @@ body {
   font-size: 30px;
   line-height: 1.25;
 }
+
+.actiontron {
+    background: #fff url('/images/paper_fibers.png') repeat scroll top left;
+    margin: 10px 0;
+	padding: 20px 20px 40px;
+    text-align: center;
+}
+
+.actiontron h2 {
+	margin: 0;
+}
+
 
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
@@ -89,14 +101,13 @@ h3 i {
 	  padding: 8px;
 	}
 	
-/*	h2 {
+	h2 {
 		margin: 10px 0 0;
-		text-align: left;
-		font-size: 18px;
+		font-size: 24px;
 	}
 	
 	h3 {
 		font-size: 18px;
 	}
-*/	
+	
 }
