@@ -1,5 +1,4 @@
 body {
-  -padding-top: 20px;
   padding-bottom: 60px;
 	font-family: 'Merriweather', serif;
 }
@@ -33,23 +32,12 @@ body {
   line-height: 1.25;
 }
 
-.actiontron {
-    background: #fff url('/images/paper_fibers.png') repeat scroll top left;
-    margin: 10px 0;
-	padding: 20px 20px 40px;
-    text-align: center;
-}
-
-.actiontron h2 {
-	margin: 0;
-}
-
-
 .btn {
     font-family: 'Merriweather Sans', sans-serif;
   	font-size: 21px;
 	padding: 14px 24px;
 	font-weight: bold;
+	margin: 10px;
 }
 
 .btn i {
@@ -76,10 +64,20 @@ h3 i {
 	padding-right:10px;
 }
 
+.servicegrid h3 {
+	text-align: center;	
+}
+
+.servicegrid i {
+	display: block;
+	color: #8ea3cf;
+	font-size: 30px;
+}
 
 @media (max-width: 767px) {
-	.topmarketing .container {
-		margin: 0;
+	.marketing .container {
+		-margin: -20px;
+		padding: 20px;
 	}
 	
 	.jumbotron
@@ -91,6 +89,7 @@ h3 i {
 	  font-size: 36px;
 	  line-height: 1;
 	}
+	
 	.jumbotron .lead {
 	  font-size: 20px;
 	  line-height: 1.25;
@@ -106,8 +105,15 @@ h3 i {
 		font-size: 24px;
 	}
 	
-	h3 {
+	.servicegrid h3 {
 		font-size: 18px;
+		text-align: left;
+		margin-top: 10px;
 	}
 	
+	.servicegrid i {
+		display: inline;
+		font-size: 18px;
+		padding-right:10px;
+	}
 }
