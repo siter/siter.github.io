@@ -1,5 +1,5 @@
 body {
-  padding-bottom: 60px;
+	padding-bottom: 60px;
 	font-family: 'Merriweather', serif;
 }
 
@@ -88,6 +88,11 @@ h3 i {
 	display: block;
 	color: #8ea3cf;
 	font-size: 30px;
+}
+
+blockquote p {
+	font-size: 16px;
+	line-height: 1.5em;
 }
 
 @media (max-width: 767px) {
