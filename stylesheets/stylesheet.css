@@ -90,6 +90,12 @@ h3 i {
 	font-size: 30px;
 }
 
+.customers i {
+	width: 72px;
+	height: 72px;
+}
+
+
 blockquote p {
 	font-size: 16px;
 	line-height: 1.5em;
@@ -98,12 +104,17 @@ blockquote p {
 .footer {
 	margin-top: 20px;
 	text-align: center;
+	font-size: 12px;
 }
 
 .footer a i {
 	text-decoration: none;
 	color: #8ea3cf;
 	font-size: 30px;
+}
+
+.footer .btn {
+	font-size: 14px;
 }
 
 @media (max-width: 767px) {
@@ -155,4 +166,10 @@ blockquote p {
 	.brand {
 		font-size: ;
 	}
+	
+	.customers .photo {
+		text-align: center;
+	}
+	
+	
 }
