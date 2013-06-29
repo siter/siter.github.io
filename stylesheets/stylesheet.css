@@ -29,18 +29,18 @@ body {
 }
 
 .jumbotron {
-  margin: 80px 0;
+  margin: 50px 0;
   text-align: center;
 }
 .jumbotron h1 {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 800;
 }
 
 .jumbotron .lead {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.25;
 }
 
@@ -109,15 +109,34 @@ blockquote p {
 
 .footer a i {
 	text-decoration: none;
-	color: #8ea3cf;
-	font-size: 30px;
+	color: #CCC;
+	font-size: 40px;
+}
+
+.footer a:hover i {
+	color: black;
 }
 
 .footer .btn {
 	font-size: 14px;
 }
 
+.about,
+.action
+{
+	text-align: center;
+}
+
+.footer .logo {
+	width: 32px;
+	height: 32px;
+}
+
 @media (max-width: 767px) {
+	.about {
+		text-align: left;
+	}
+
 	.marketing {
 		margin: 0 -20px;
 		padding: 10px;
@@ -171,5 +190,8 @@ blockquote p {
 		text-align: center;
 	}
 	
+	.footer a i {
+		font-size: 100px;
+	}
 	
 }
