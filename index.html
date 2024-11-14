@@ -3,8 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Siter</title>
-    <meta name="description" content="Web softwaree engineering" />
+    <title>Siter | making business simple</title>
+    <meta name="description" content="Web software engineering" />
   	<meta name="author" content="Siter Pty Ltd">
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -18,16 +18,47 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png" />
 
-    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Poppins&display=swap" rel="stylesheet">
     <style media="screen">
+      * {
+        box-sizing: inherit;
+      }
+
+      html {
+        font-size: 16pt;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
       body {
-        font-family: 'Varela Round', 'Myriad Set Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        color: rgb(57, 57, 57);
-        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(67,5,96);
+        background-color: rgb(251, 231, 157);
+        padding-top: 60px;
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
       }
 
       p {
         line-height: 1.5;
+      }
+
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .monofett-regular {
+        font-family: "Monofett", monospace;
+        font-weight: 400;
+        font-style: normal;
       }
 
       .container {
@@ -41,36 +72,55 @@
         min-width: 320px;
       }
       .center-image {
-        padding: 30px 10px;
+        padding: 0;
       }
 
       h1 {
-        font-size: 56px;
+        font-size: 6rem;
+        font-weight: 900;
         margin: 0;
         padding: 10px 0;
       }
 
+      h2 {
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+
       img {
-        max-width: 100%;
+        max-width: 60%;
       }
 
       footer {
         padding: 30px 20px;
         color: rgb(86, 89, 110);
-        font-size: 10px;
+        text-transform: lowercase;
+        font-size: 0.75rem;
+        text-align: center;
+        align-self: last baseline;
       }
 
-      @media screen and (max-width: 480px){
-        h1 {
-          font-size: 48px;
+      @media screen and (max-width: 800px){
+        html {
+          font-size: 14pt;
         }
         .item {
           max-width: 80%;
         }
-
         .logo {
-          max-width: 80px;
+          max-width: 50%;
           padding: 10px;
+        }
+      }
+      @media screen and (max-width: 480px){
+        .logo {
+          max-width: 30%;
+          padding: 5px;
+        }
+
+
+        html {
+          font-size: 13pt;
         }
 
         footer {
@@ -79,39 +129,40 @@
 
       }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-43EZ3GN3CR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-43EZ3GN3CR');
+    </script>
   </head>
   <body>
-    <div class="container">
-      <div class="item">
-        <img class="center-image logo" src="images/180 - Siter Mark.svg" onerror="this.src='images/180 - Siter Mark@2x.png'; this.onerror=null;">
+
+    <main class="page-body">
+      <div class="container">
+        <div class="item">
+          <img class="center-image logo" src="images/siter-logo.svg" onerror="this.src='images/180 - Siter Mark@2x.png'; this.onerror=null;">
+        </div>
       </div>
-    </div>
-    <main class="container">
-      <section class="item">
-        <h1>Siter</h1>
-        <p>
-          Australian enterprise delivering solutions in web software engineering, smart devices, e-commerce, online publishing and other online and offline business areas.
-        </p>
-      </section>
+      <div class="container">
+        <section class="item">
+          <h1 class="monofett-regular">Siter</h1>
+          <h2 class="poppins-regular">
+            making business simple <br />with smart tech
+          </h2>
+        </section>
+      </div>
     </main>
     <footer class="container">
       <section class="item">
         <p>
-          <a href="mailto:info@siter.com.au?subject=contact+from+website">info@siter.com.au</a>
-        </p>
-        <p>
-          Siter Pty Ltd, ABN 87146759266
+          Siter Pty Ltd &middot; ABN 87146759266<br />
+          Australia
         </p>
       </section>
     </footer>
-    <script>
-  	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  	  ga('create', 'UA-41303784-1', 'www.siter.com.au');
-  	  ga('send', 'pageview');
-  	</script>
-  </body>
+</body>
 </html>
