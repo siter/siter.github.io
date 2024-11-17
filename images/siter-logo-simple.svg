@@ -7,14 +7,12 @@
     <clipPath id="insideLogoOnly">
       <use href="#logo"/>
     </clipPath>
-
   </defs>
 
   <g id="group" transform="matrix(1.13272,0,0,1.13272,-21.8423,-14.363)">
-      <use
-        href="#logo"
-        stroke-width="16"
-        clip-path="url(#insideLogoOnly)"
-      />
+    <use
+      href="#logo"
+      clip-path="url(#insideLogoOnly)"
+    />
   </g>
 </svg>
